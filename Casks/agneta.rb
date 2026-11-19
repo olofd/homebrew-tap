@@ -3,9 +3,9 @@
 cask "agneta" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.3.1"
-  sha256 arm:   "1cf2d106a451a5323ee474ab938f6de758ac2bd8659fc6282712bc7a0278c33c",
-         intel: "015afafcf799d0556681c095e02d669dff7c305311005adbae8c7b1d506384f3"
+  version "0.4.0"
+  sha256 arm:   "666f55d66b1cd87c0bd52dfb4a8820bd7ba9a419075b6960b1d31ad947fcf0aa",
+         intel: "c5040f1271ebf9b738cc17689c4896375c602d230f4e32de26114876a8c952a9"
 
   url "https://github.com/olofd/agneta/releases/download/v#{version}/Agneta-#{version}-#{arch}.dmg"
   name "Agneta"
